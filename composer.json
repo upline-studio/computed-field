@@ -1,0 +1,30 @@
+{
+    "name": "upline/computed-field",
+    "description": "Readonly field for nova form, that is live reloading when source fields change.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "field"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.4|^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Upline\\ComputedField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Upline\\ComputedField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
